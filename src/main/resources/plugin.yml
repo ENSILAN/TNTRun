@@ -1,0 +1,9 @@
+name: TNTRun
+version: 1.0
+author: NathanFallet
+main: me.nathanfallet.ensilan.tntrun.TNTRun
+depend: [Core]
+api-version: 1.19
+commands:
+  tntrun:
+    description: Gestion du TNTRun
