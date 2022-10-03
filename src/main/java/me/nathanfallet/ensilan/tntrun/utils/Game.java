@@ -72,7 +72,7 @@ public class Game extends AbstractGame {
 			state = GameState.FINISHED;
 			Player p = Bukkit.getPlayer(getPlayers().get(0));
 			if (p != null) {
-				Bukkit.broadcastMessage("§e" + p.getName() + "§7 a gagné la partie !");
+				Bukkit.broadcastMessage("§e" + p.getName() + "§7 a gagné la partie de TNT Run !");
 				p.getInventory().clear();
 				p.updateInventory();
 				p.setGameMode(GameMode.SPECTATOR);
