@@ -225,7 +225,7 @@ public class TNTRun extends JavaPlugin {
 				for (Game g : getGames()) {
 					if (g.getGameNumber() == zp.getCurrentGame()) {
 						lines.add("§c");
-						lines.add("§c§lJoueurs");
+						lines.add("§c§lJoueurs :");
 						lines.add("§f" + g.getPlayers().size() + "/" + g.getMaxPlayers());
 						lines.add("§d");
 						lines.add("§d§lStatut :");
