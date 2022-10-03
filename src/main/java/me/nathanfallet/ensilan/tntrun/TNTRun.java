@@ -37,7 +37,7 @@ import me.nathanfallet.ensilan.tntrun.utils.TNTRunPlayer;
 public class TNTRun extends JavaPlugin {
 
     public static final int SIZE = 2;
-    public static final int DISTANCE = 5;
+    public static final int DISTANCE = 6;
     public static final int COUNT = 5;
 	public static final long SCORE = 10;
 	public static final long MONEY = 10;
